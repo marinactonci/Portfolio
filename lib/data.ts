@@ -1,10 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import summonerSpyImage from "@/public/summonerspy.png";
+import billTrackerImg from "@/public/billtracker.png";
+import chatAppImg from "@/public/chatapp.png";
 
 export const links = [
   {
@@ -35,28 +34,35 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated highschool",
+    location: "Rijeka, Croaita",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated a 4 year highschool in Rijeka. I attended the Computer Technician course.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    location: "Rijeka, Croatia",
+    description: "I worked as a Front-End Developer for a year at Juice d.o.o.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Graduated Bachelor's Degree",
+    location: "Rijeka, Croatia",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I graduated with a Bachelor's degree in Informatics on Faculty of Informatics and Digital Technologies.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023",
+  },
+  {
+    title: "Master's Degree",
+    location: "Rijeka, Croatia",
+    description:
+      "I'm now in my first year of studying for my Master's degree in Informatics on Faculty of Informatics and Digital Technologies.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023 - present",
   },
 ] as const;
 
@@ -65,22 +71,28 @@ export const projectsData = [
     title: "Summoner Spy",
     description:
       "My final project for Bachelor's degree. Users view LoL player's match history and add profiles as their favorites.",
+    alt: "Image for Summoner Spy project",
     tags: ["Angular", "Typescript", "Express", "Firebase", "Tailwind"],
-    imageUrl: corpcommentImg,
+    imageUrl: summonerSpyImage,
+    githubUrl: "https://github.com/marinactonci/SummonerSpy-client",
   },
   {
     title: "Bill Tracker",
     description:
       "A bill tracker app where users can add profiles and bills and view them in a dashboard. Users can also view their bill history and statistics.",
+    alt: "Image for Bill Tracker project",
     tags: ["React", "Firebase", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: billTrackerImg,
+    githubUrl: "https://github.com/marinactonci/BillTracker",
   },
   {
     title: "Chat App",
     description:
       "A real time chat app where users can create rooms and chat with each other. Upgraded with AI functionalities.",
+    alt: "Image for Chat App project",
     tags: ["Angular", "TypeScript", "Tailwind", "Firebase", "Python", "Llama"],
-    imageUrl: rmtdevImg,
+    imageUrl: chatAppImg,
+    githubUrl: "https://github.com/marinactonci/ChatApp",
   },
 ] as const;
 
