@@ -45,7 +45,7 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Rijeka, Croatia",
     description: "I worked as a Front-End Developer for a year at Juice d.o.o.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(CgWorkAlt),
     date: "2022 - 2023",
   },
   {
@@ -53,7 +53,7 @@ export const experiencesData = [
     location: "Rijeka, Croatia",
     description:
       "I graduated with a Bachelor's degree in Informatics on Faculty of Informatics and Digital Technologies.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
   {
