@@ -20,10 +20,10 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         Currently, I am a first-year{" "}
-        <span className="italic">Master's student in Informatics </span>. As a
-        child, I was always good at crossing out drawings, and that's what{" "}
-        <span className="font-medium">frontend development</span> is to me—where
-        the drawing is a given design. My core stack includes{" "}
+        <span className="italic">Master&apos;s student in Informatics </span>.
+        As a child, I was always good at crossing out drawings, and that&apos;s
+        what <span className="font-medium">frontend development</span> is to
+        me—where the drawing is a given design. My core stack includes{" "}
         <span className="font-medium">
           Angular, React, Next.js, and Firebase
         </span>
@@ -31,10 +31,10 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, series and anime. Additionally, I have
-        been training in water polo since 2011, although I haven't been very
-        active in the past few years.
+        <span className="italic">When I&apos;m not coding</span>, I enjoy
+        playing video games, watching movies, series and anime. Additionally, I
+        have been training in water polo since 2011, although I haven&apos;t
+        been very active in the past few years.
       </p>
     </motion.section>
   );
