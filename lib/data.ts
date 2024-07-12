@@ -4,6 +4,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import summonerSpyImage from "@/public/summonerspy.png";
 import billTrackerImg from "@/public/billtracker.png";
 import chatAppImg from "@/public/chatapp.png";
+import adminDashboardImg from "@/public/admindashboard.png";
 
 export const links = [
   {
@@ -71,7 +72,6 @@ export const projectsData = [
     title: "Summoner Spy",
     description:
       "My final project for Bachelor's degree. Users view LoL player's match history and add profiles as their favorites.",
-    alt: "Image for Summoner Spy project",
     tags: ["Angular", "Typescript", "Express", "Firebase", "Tailwind"],
     imageUrl: summonerSpyImage,
     githubUrl: "https://github.com/marinactonci/SummonerSpy-client",
@@ -80,7 +80,6 @@ export const projectsData = [
     title: "Bill Tracker",
     description:
       "A bill tracker app where users can add profiles and bills and view them in a dashboard. Users can also view their bill history and statistics.",
-    alt: "Image for Bill Tracker project",
     tags: ["React", "Firebase", "Tailwind", "Framer"],
     imageUrl: billTrackerImg,
     githubUrl: "https://github.com/marinactonci/BillTracker",
@@ -89,10 +88,17 @@ export const projectsData = [
     title: "Chat App",
     description:
       "A real time chat app where users can create rooms and chat with each other. Upgraded with AI functionalities.",
-    alt: "Image for Chat App project",
     tags: ["Angular", "TypeScript", "Tailwind", "Firebase", "Python", "Llama"],
     imageUrl: chatAppImg,
     githubUrl: "https://github.com/marinactonci/ChatApp",
+  },
+  {
+    title: "Admin Dashboard",
+    description:
+      "A sidebar layout admin dashboard where he can view statistics and manage users and payment orders.",
+    tags: ["Angular", "PrimeNG", "json-server"],
+    imageUrl: adminDashboardImg,
+    githubUrl: "https://github.com/marinactonci/admin-dashboard",
   },
 ] as const;
 

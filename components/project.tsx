@@ -10,7 +10,6 @@ type ProjectProps = (typeof projectsData)[number];
 export default function Project({
   title,
   description,
-  alt,
   tags,
   imageUrl,
   githubUrl,
@@ -53,7 +52,7 @@ export default function Project({
 
           <Image
             src={imageUrl}
-            alt={alt}
+            alt={"Image for " + title + " project"}
             quality={95}
             className="absolute hidden sm:block top-8 -right-[18rem] h-80 w-[570px] rounded-t-lg shadow-2xl
         transition 
