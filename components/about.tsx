@@ -33,7 +33,7 @@ export default function About() {
       <p>
         <span className="italic">When I&apos;m not coding</span>, I enjoy
         playing video games, watching movies, series and anime. Additionally, I
-        have been training in water polo since 2011, although I haven&apos;t
+        have been training water polo since 2011, although I haven&apos;t
         been very active in the past few years.
       </p>
     </motion.section>
