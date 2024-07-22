@@ -45,7 +45,7 @@ export const experiencesData = [
   {
     title: "Front-End Developer",
     location: "Rijeka, Croatia",
-    description: "I worked as a Front-End Developer for a year at Juice d.o.o.",
+    description: "I worked as a Frontend Developer for a year at Juice d.o.o.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - 2023",
   },
