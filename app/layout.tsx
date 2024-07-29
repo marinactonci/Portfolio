@@ -11,9 +11,19 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.marinactonci.xyz/'),
   title: "Tonči Marinac | Frontend Developer",
   description:
-    "Welcome to the portfolio of Tonči Marinac, a junior frontend developer with a passion for crafting responsive, user-friendly web interfaces. Explore my projects, skills, and experiences that showcase my expertise in creating dynamic and engaging web applications.",
+    "Portfolio of Tonči Marinac, a junior frontend developer with a passion for crafting responsive, user-friendly web interfaces. Explore my projects, skills, and experiences that showcase my expertise in creating dynamic and engaging web applications.",
+  openGraph: {
+    title: "Tonči Marinac | Frontend Developer",
+    description:
+    "Portfolio of Tonči Marinac, a junior frontend developer with a passion for crafting responsive, user-friendly web interfaces. Explore my projects, skills, and experiences that showcase my expertise in creating dynamic and engaging web applications.",
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.marinactonci.xyz/',
+    siteName: 'Tonči Marinac'
+  }
 };
 
 export default function RootLayout({
