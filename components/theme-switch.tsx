@@ -25,6 +25,7 @@ export default function ThemeSwitch() {
         isBottom && "hidden sm:block"
       }`}
       onClick={toggleTheme}
+      aria-label="Toggle theme"
     >
       {theme === "light" ? <BsSun /> : <BsMoon />}
     </button>
