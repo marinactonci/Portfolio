@@ -72,15 +72,15 @@ export const projectsData = [
     title: "Summoner Spy",
     description:
       "My final project for Bachelor's degree. Users view LoL player's match history and add profiles as their favorites.",
-    tags: ["Angular", "Typescript", "Express", "Firebase", "Tailwind"],
+    tags: ["Angular", "Express", "Firebase", "Tailwind"],
     imageUrl: summonerSpyImage,
     githubUrl: "https://github.com/marinactonci/SummonerSpy-client",
   },
   {
     title: "Bill Tracker",
     description:
-      "A bill tracker app where users can add profiles and bills and view them in a dashboard. Users can also view their bill history and statistics.",
-    tags: ["React", "Firebase", "Tailwind", "Framer"],
+      "A bill tracker app where users can add profiles and bills and view them in a calendar dashboard.",
+    tags: ["Next.js", "Supabase", "Tailwind", "Ant Design"],
     imageUrl: billTrackerImg,
     githubUrl: "https://github.com/marinactonci/BillTracker",
   },
@@ -88,7 +88,7 @@ export const projectsData = [
     title: "Chat App",
     description:
       "A real time chat app where users can create rooms and chat with each other. Upgraded with AI functionalities.",
-    tags: ["Angular", "TypeScript", "Tailwind", "Firebase", "Python", "Llama"],
+    tags: ["Angular", "Tailwind", "Firebase", "Python", "Llama"],
     imageUrl: chatAppImg,
     githubUrl: "https://github.com/marinactonci/ChatApp",
   },
