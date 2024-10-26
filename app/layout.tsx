@@ -12,11 +12,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.marinactonci.xyz/'),
-  title: "Tonči Marinac | Frontend Developer",
+  title: "Tonči Marinac",
   description:
     "Portfolio of Tonči Marinac, a junior frontend developer with a passion for crafting responsive, user-friendly web interfaces. Explore my projects, skills, and experiences that showcase my expertise in creating dynamic and engaging web applications.",
   openGraph: {
-    title: "Tonči Marinac | Frontend Developer",
+    title: "Tonči Marinac",
     description:
     "Portfolio of Tonči Marinac, a junior frontend developer with a passion for crafting responsive, user-friendly web interfaces. Explore my projects, skills, and experiences that showcase my expertise in creating dynamic and engaging web applications.",
     type: 'website',

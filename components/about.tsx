@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Currently, I am a first-year{" "}
+        Currently, I am a second-year{" "}
         <span className="italic">Master&apos;s student in Informatics </span>.
         As a child, I was good at crossing out images, and that&apos;s what{" "}
         <span className="font-medium">frontend development</span> is to me—where
