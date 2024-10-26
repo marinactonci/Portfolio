@@ -63,7 +63,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I&apos;m Tonči.</span> I&apos;m a
+        <span>Hello, I&apos;m Tonči.</span> I&apos;m a
         <span className="font-bold"> Junior Frontend Developer</span>. I enjoy
         building <span className="italic">sites & apps</span>. My focus is on{" "}
         <span className="underline">Angular and Next.js</span>.
