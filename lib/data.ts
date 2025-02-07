@@ -61,7 +61,7 @@ export const experiencesData = [
     title: "Master's Degree",
     location: "Rijeka, Croatia",
     description:
-      "I'm now in my first year of studying for my Master's degree in Informatics on Faculty of Informatics and Digital Technologies.",
+      "I'm in my final year of studying for my Master's degree in Informatics on Faculty of Informatics and Digital Technologies.",
     icon: React.createElement(LuGraduationCap),
     date: "2023 - present",
   },
