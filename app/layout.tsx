@@ -24,6 +24,23 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://www.marinactonci.xyz/',
     siteName: 'Tonči Marinac'
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'your-google-site-verification-code', // Replace with your verification code
+  },
+  alternates: {
+    canonical: 'https://www.marinactonci.xyz/',
   }
 };
 
